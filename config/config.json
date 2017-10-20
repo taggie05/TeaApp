@@ -1,23 +1,23 @@
 {
-  "development": {
-    "username": "root",
-    "password": null,
-    "database": "blogger",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  },
-  "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  }
+    "development": {
+        "username": "root",
+        "password": null,
+        "database": "blogger",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "root",
+        "password": null,
+        "database": "database_test",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "root",
+        "password": null,
+        "database": " postgres://ymwnxfuorjyfon:f3c52eac89de72a6964590f63de0e1f9226d196f3ab7d1bc37d1ca9861e89946@ec2-54-225-68-71.compute-1.amazonaws.com:5432/dbtunqenr9hvm5",
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    }
 }
