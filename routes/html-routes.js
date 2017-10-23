@@ -14,7 +14,7 @@ module.exports = function(app) {
 
     // index route loads view.html
     app.get("/", function(req, res) {
-        res.sendFile(path.join(__dirname, "../public/map.html"));
+        res.sendFile(path.join(__dirname, "../public/about.html"));
     });
 
     app.get("/blog", function(req, res) {
@@ -22,6 +22,10 @@ module.exports = function(app) {
     });
     app.get("/feed", function(req, res) {
         res.sendFile(path.join(__dirname, "../public/feed.html"));
+    });
+
+    app.get("/about", function(req, res) {
+        res.sendFile(path.join(__dirname, "../public/about.html"));
     });
 
     // blog route loads blog.html
