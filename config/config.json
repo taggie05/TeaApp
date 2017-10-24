@@ -16,7 +16,7 @@
     "production": {
         "username": "root",
         "password": null,
-        "database": "database_production",
+        "database": "postgres://dagstciftyidfz:1b083db8f61b7348fe810e89cd086bb74fdc744e7de2ec805e8524136a1313fb@ec2-54-243-43-72.compute-1.amazonaws.com:5432/d9k4bjqmis91mg",
         "host": "127.0.0.1",
         "dialect": "mysql"
     }
