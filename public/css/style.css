@@ -21,3 +21,7 @@ body {
 .card {
     background-color: #000;
 }
+
+#accordion {
+    text-align: center;
+}

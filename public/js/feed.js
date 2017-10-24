@@ -115,7 +115,7 @@ $(document).ready(function() {
     function displayEmpty() {
         blogContainer.empty();
         var messageh2 = $("<h2>");
-        messageh2.css({ "text-align": "center", "margin-top": "50px" });
+        messageh2.css({ "text-align": "center", "margin-top": "50px", "color": "white" });
         messageh2.html("No posts yet for this category, navigate <a href='/blog'>here</a> in order to create a new post.");
         blogContainer.append(messageh2);
     }
